@@ -2,13 +2,13 @@
 #include<conio.h>
 using namespace std;
 main(){
-	int a,b,c,max;
+	int a,b,c,min;
 	cin>>a>>b>>c;
-	max=a;
-	if(b>max)
-	b=max;
-	if(c>max)
-	c=max;
-	cout<<max;
+	min=a;
+	if(b<min)
+	min=b;
+	if(c<min)
+	min=c;
+	cout<min;
 	getch();
 }
