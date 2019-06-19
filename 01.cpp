@@ -1,16 +1,13 @@
 #include<iostream>
 #include<conio.h>
 using namespace std;
-main(){
-	int num;
-	string strMessage;
-	cout<< "enter a number:";
-	cin>>num;
-	switch(num){
-		case 10:strMessage="the number is 10";break;
-		case 20:strMessage="the number is 20";break;
-		case 30:strMessage="the number is 30";break;
-		default:strMessage="Unknown";
+double area(double r){
+	return r*r*3.14;
 	}
-	cout<<"the number is:"<<strMessage;
-}
+	main(){
+	double r,result;
+	cin>>r;
+		result=area(r);
+		cout<<result;
+	}
+
